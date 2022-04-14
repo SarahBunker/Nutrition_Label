@@ -35,6 +35,6 @@ table {
   border-spacing: 20px, 0px;
 }
 ```
-Because in order to add spacing between cells you have to set it to `seperate` instead of collapse, but this didn't and it made it so the borders went into the cell so I couldn't create the large black lines for spacing.
+Because in order to add spacing between cells you have to set it to `seperate` instead of collapse, but this didn't work and it made it so the borders went into the cell so I couldn't create the large black lines for spacing.
 
 I also had trouble with the indented lines haveing borders that go all the way to the edge of the screen. I am using padding to indent the text, but that doesn't affect the border, and margins are crazy in tables, so I didn't get that to work either.
