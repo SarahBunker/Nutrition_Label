@@ -1,0 +1,64 @@
+table {
+  border: black solid 0.0625rem;
+  border-collapse: collapse;
+  width: 20.8rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+strong {
+  font-family: "Helvetica Black", Arial, sans-serif;
+  font-weight: 1000;
+}
+
+thead th {
+  font-family: "Franklin Gothic Heavy", Arial, sans-serif;
+  font-size: 2.9rem;
+  padding: 0;
+  margin: 0;
+}
+
+th {
+  text-align: left;
+}
+
+tbody:first-of-type td:last-child {
+  text-align: right;
+}
+
+.subgroup {
+  padding-left: 1.25rem;
+}
+
+tbody:first-of-type tr{
+  border-bottom: solid grey 0.0625rem;
+}
+
+tbody:first-of-type tr:nth-child(1) {
+  font-size: 0.8rem;
+  border-top: solid black 0.9rem;
+}
+
+tbody:first-of-type tr:nth-child(3) {
+  font-size: 0.7rem;
+  border-top: solid black 0.4rem;
+}
+
+tbody:first-of-type tr:nth-child(13) {
+  border-top: solid black 0.9rem;
+}
+
+tbody:nth-child(3),
+tbody:nth-child(4) {
+  font-size: 0.8rem;
+}
+
+tbody:nth-child(4) tr:first-of-type{
+  border-bottom: solid grey 0.0625rem;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0.5rem;
+  list-style-type: "\2B51";
+}
